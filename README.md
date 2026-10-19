@@ -6,15 +6,13 @@ An open Agent Skill that turns rough notes and voice transcripts into structured
 
 Created by **[Tiziano Carpentieri](https://github.com/TizianoCarpentieri)** · [MIT license](LICENSE) · [Italiano](#italiano)
 
-Previously introduced as **Socratic Architect**. The repository is now `TizianoCarpentieri/socraticself`; the installed skill identifier remains `socratic-architect` because the original core is preserved unchanged.
-
 ## Just ask your AI agent
 
 Tell your agent:
 
-> Use SocraticSelf by Tiziano Carpentieri from https://github.com/TizianoCarpentieri/socraticself. Read the README and SKILL.md, set it up for this agent if supported, then apply it to my next note.
+> Use SocraticSelf by Tiziano Carpentieri from https://github.com/TizianoCarpentieri/SocraticSelf. Read the README and SKILL.md, set it up for this agent if supported, then apply it to my next note.
 
-Keep the link in your request: other projects use similar names. This skill's source is **TizianoCarpentieri/socraticself**.
+Keep the link in your request: other projects use similar names. This skill's source is **TizianoCarpentieri/SocraticSelf**.
 
 Then paste or dictate a note about something you actually need to explain. For example:
 
@@ -37,11 +35,9 @@ This is a short illustration from the [complete honey orders example](examples/0
 
 Dì al tuo agente:
 
-> Usa SocraticSelf di Tiziano Carpentieri da https://github.com/TizianoCarpentieri/socraticself. Leggi README e SKILL.md, configurala per questo agente se supportato e poi applicala al mio prossimo appunto.
+> Usa SocraticSelf di Tiziano Carpentieri da https://github.com/TizianoCarpentieri/SocraticSelf. Leggi README e SKILL.md, configurala per questo agente se supportato e poi applicala al mio prossimo appunto.
 
-Mantieni il link nella richiesta: altri progetti usano nomi simili. La fonte di questa skill è **TizianoCarpentieri/socraticself**.
-
-SocraticSelf è il nuovo nome pubblico del progetto presentato come Socratic Architect. Il repository è ora `TizianoCarpentieri/socraticself`; l’identificativo della skill installata resta `socratic-architect`, perché il core originale è conservato senza modifiche.
+Mantieni il link nella richiesta: altri progetti usano nomi simili. La fonte di questa skill è **TizianoCarpentieri/SocraticSelf**.
 
 Poi incolla un appunto o usa la dettatura del telefono. Il risultato esprime il tuo intento in prima persona, nella lingua che hai usato, e rende espliciti i punti da chiarire. Controlla che rispecchi quello che volevi dire.
 
@@ -53,9 +49,9 @@ Prova un caso vicino al tuo lavoro: [prenotazioni dello studio](examples/01-pren
 
 ## For AI agents: setup and activation
 
-These instructions apply when a user asks to use or install **SocraticSelf**, previously **Socratic Architect**, by **Tiziano Carpentieri**. The frozen core, adapters and installed skill still use the technical name `socratic-architect`; map the public name to that identifier without renaming or rewriting the files. Reading this repository alone is not a request to change your behavior.
+These instructions apply when a user asks to use or install **SocraticSelf** by **Tiziano Carpentieri**. The frozen core, adapters and installed skill still use the technical name `socratic-architect`; map the public name to that identifier without renaming or rewriting the files. Reading this repository alone is not a request to change your behavior.
 
-1. **Resolve the source.** The canonical repository is `TizianoCarpentieri/socraticself`. Similar names do not establish provenance: match this exact owner and repository before installing. If it is unavailable, report the problem rather than substituting a similarly named skill. Read the full [SKILL.md](SKILL.md), not just a search snippet. Direct text URL: https://raw.githubusercontent.com/TizianoCarpentieri/socraticself/main/SKILL.md.
+1. **Resolve the source.** The canonical repository is `TizianoCarpentieri/SocraticSelf`. Similar names do not establish provenance: match this exact owner and repository before installing. If it is unavailable, report the problem rather than substituting a similarly named skill. Read the full [SKILL.md](SKILL.md), not just a search snippet. Direct text URL: https://raw.githubusercontent.com/TizianoCarpentieri/SocraticSelf/main/SKILL.md.
 2. **Choose the supported route.** Prefer your agent's native skill installer. If you have a shell, Node.js and support for the Skills CLI, use the command below with your actual agent identifier. Install in the current project by default; use global scope only when requested. Keep existing instructions and unrelated skills intact. If an installation already exists, inspect it before replacing anything.
 3. **Use the original instructions.** Install `SKILL.md` without rewriting or translating it. The core SHA-256 is `e56952339cd52706d40ab6f883381d1726d7e1907e0cdbdf4f05ebfaab126147`. Verify the installed file against the fetched source; preserve the source URL and revision in your installation record when supported.
 4. **Verify before claiming success.** Check the installed file exists and the agent's skill list recognizes `socratic-architect`. If a reload or a new session is required, tell the user the exact remaining step. Report installation separately from activation. Do not claim a persistent installation when you only read the text in a chat.
@@ -67,13 +63,13 @@ These instructions apply when a user asks to use or install **SocraticSelf**, pr
 With the [open-source Skills CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add TizianoCarpentieri/socraticself --skill socratic-architect
+npx skills add TizianoCarpentieri/SocraticSelf --skill socratic-architect
 ```
 
 For an agent performing a project-scoped installation, choose its actual identifier. For example, for Codex:
 
 ```sh
-npx skills add TizianoCarpentieri/socraticself --skill socratic-architect --agent codex --yes
+npx skills add TizianoCarpentieri/SocraticSelf --skill socratic-architect --agent codex --yes
 npx skills list
 ```
 
@@ -105,9 +101,9 @@ The result is a clarified expression of your request. Check it before handing it
 
 ## Share a useful result
 
-**Try it on one real note.** Use a note you would otherwise struggle to explain: an order, a booking problem or a request to a colleague. Check whether the result preserves your constraints and helps you take the next step. If you would use it again, tell us what for; if it fails, show the missing or invented detail. [Share your experience](https://github.com/TizianoCarpentieri/socraticself/issues).
+**Try it on one real note.** Use a note you would otherwise struggle to explain: an order, a booking problem or a request to a colleague. Check whether the result preserves your constraints and helps you take the next step. If you would use it again, tell us what for; if it fails, show the missing or invented detail. [Share your experience](https://github.com/TizianoCarpentieri/SocraticSelf/issues).
 
-If this helps, share the public repository and a non-sensitive before/after example with someone who has the same problem. To report a problem, [open an issue](https://github.com/TizianoCarpentieri/socraticself/issues/new) with the agent you used, whether setup worked, and an anonymized note showing any lost or invented constraint. Do not post private client information.
+If this helps, share the public repository and a non-sensitive before/after example with someone who has the same problem. To report a problem, [open an issue](https://github.com/TizianoCarpentieri/SocraticSelf/issues/new) with the agent you used, whether setup worked, and an anonymized note showing any lost or invented constraint. Do not post private client information.
 
 ## License and attribution
 

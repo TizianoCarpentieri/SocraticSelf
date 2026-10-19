@@ -1,6 +1,6 @@
 # 01 — Le prenotazioni dello studio
 
-**Pattern:** `socratic-architect`  
+**Skill:** SocraticSelf  
 **Autore del pattern:** Tiziano Carpentieri
 
 Prima la voce, come esce. Poi la stessa persona, con le stesse decisioni messe in ordine. In fondo dice, con parole sue, quello che sa di non sapere e quello che potrebbe sfuggirle.
