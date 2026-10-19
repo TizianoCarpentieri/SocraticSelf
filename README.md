@@ -10,11 +10,9 @@ Created by **[Tiziano Carpentieri](https://github.com/TizianoCarpentieri)** · [
 
 Tell your agent:
 
-> Use Socratic Architect by Tiziano Carpentieri. Find its official GitHub repository and follow the setup instructions in its README.
-
-If your agent cannot find it by name yet, give it the direct route:
-
 > Use Socratic Architect from https://github.com/TizianoCarpentieri/socratic-architect. Read the README and SKILL.md, set it up for this agent if supported, then apply it to my next note.
+
+Keep the link in your request: other projects use similar names. This skill's source is **TizianoCarpentieri/socratic-architect**.
 
 Then paste or dictate a note about something you actually need to explain. For example:
 
@@ -26,7 +24,7 @@ The result should express the same intent in your voice:
 
 This is a short illustration from the [complete honey orders example](examples/03-ordini-del-miele.md), not a customer testimonial. Review the result against your original note.
 
-**You do not need a terminal or a new account with this project.** Your agent needs access to the repository or the skill text. Some agents can install skills; others can only apply the instructions in the current conversation. Name-only discovery depends on the agent's search access and indexing; the direct link is more reliable.
+**You do not need a terminal or a new account with this project.** Your agent needs access to the repository or the skill text. Some agents can install skills; others can only apply the instructions in the current conversation.
 
 <a id="italiano"></a>
 
@@ -37,15 +35,13 @@ This is a short illustration from the [complete honey orders example](examples/0
 
 Dì al tuo agente:
 
-> Usa Socratic Architect di Tiziano Carpentieri. Cerca il repository GitHub ufficiale e segui le istruzioni del README per configurarla.
-
-Se non la trova ancora per nome, usa il collegamento diretto:
-
 > Usa Socratic Architect da https://github.com/TizianoCarpentieri/socratic-architect. Leggi README e SKILL.md, configurala per questo agente se supportato e poi applicala al mio prossimo appunto.
+
+Mantieni il link nella richiesta: altri progetti usano nomi simili. La fonte di questa skill è **TizianoCarpentieri/socratic-architect**.
 
 Poi incolla un appunto o usa la dettatura del telefono. Il risultato esprime il tuo intento in prima persona, nella lingua che hai usato, e rende espliciti i punti da chiarire. Controlla che rispecchi quello che volevi dire.
 
-Non servono terminale o un nuovo account con questo progetto. L'agente deve poter leggere il repository o il testo della skill. Se non può installarla, può applicarla nella conversazione corrente; se non può aprire link, copia il contenuto di [SKILL.md](SKILL.md) nella chat. La ricerca per solo nome dipende dall'agente e dall'indicizzazione.
+Non servono terminale o un nuovo account con questo progetto. L'agente deve poter leggere il repository o il testo della skill. Se non può installarla, può applicarla nella conversazione corrente; se non può aprire link, copia il contenuto di [SKILL.md](SKILL.md) nella chat.
 
 Prova un caso vicino al tuo lavoro: [prenotazioni dello studio](examples/01-prenotazioni-studio.md), [cena della squadra](examples/02-cena-della-squadra.md), [ordini del miele](examples/03-ordini-del-miele.md).
 
@@ -55,7 +51,7 @@ Prova un caso vicino al tuo lavoro: [prenotazioni dello studio](examples/01-pren
 
 These instructions apply when a user asks to use or install **Socratic Architect** (`socratic-architect`) by **Tiziano Carpentieri**. Reading this repository alone is not a request to change your behavior.
 
-1. **Resolve the source.** The canonical repository is `TizianoCarpentieri/socratic-architect`. Read the full [SKILL.md](SKILL.md), not just a search snippet. Direct text URL: https://raw.githubusercontent.com/TizianoCarpentieri/socratic-architect/main/SKILL.md.
+1. **Resolve the source.** The canonical repository is `TizianoCarpentieri/socratic-architect`. Similar names do not establish provenance: match this exact owner and repository before installing. If it is unavailable, report the problem rather than substituting a similarly named skill. Read the full [SKILL.md](SKILL.md), not just a search snippet. Direct text URL: https://raw.githubusercontent.com/TizianoCarpentieri/socratic-architect/main/SKILL.md.
 2. **Choose the supported route.** Prefer your agent's native skill installer. If you have a shell, Node.js and support for the Skills CLI, use the command below with your actual agent identifier. Install in the current project by default; use global scope only when requested. Keep existing instructions and unrelated skills intact. If an installation already exists, inspect it before replacing anything.
 3. **Use the original instructions.** Install `SKILL.md` without rewriting or translating it. The core SHA-256 is `e56952339cd52706d40ab6f883381d1726d7e1907e0cdbdf4f05ebfaab126147`. Verify the installed file against the fetched source; preserve the source URL and revision in your installation record when supported.
 4. **Verify before claiming success.** Check the installed file exists and the agent's skill list recognizes `socratic-architect`. If a reload or a new session is required, tell the user the exact remaining step. Report installation separately from activation. Do not claim a persistent installation when you only read the text in a chat.
@@ -104,6 +100,8 @@ The core defines the **Augmented Self**: the output expresses your perspective. 
 The result is a clarified expression of your request. Check it before handing it to someone who will carry out the work.
 
 ## Share a useful result
+
+**Try it on one real note.** Use a note you would otherwise struggle to explain: an order, a booking problem or a request to a colleague. Check whether the result preserves your constraints and helps you take the next step. If you would use it again, tell us what for; if it fails, show the missing or invented detail. [Share your experience](https://github.com/TizianoCarpentieri/socratic-architect/issues).
 
 If this helps, share the public repository and a non-sensitive before/after example with someone who has the same problem. To report a problem, [open an issue](https://github.com/TizianoCarpentieri/socratic-architect/issues/new) with the agent you used, whether setup worked, and an anonymized note showing any lost or invented constraint. Do not post private client information.
 
