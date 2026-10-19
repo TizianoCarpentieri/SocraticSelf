@@ -6,6 +6,8 @@ An open Agent Skill that turns rough notes and voice transcripts into structured
 
 Created by **[Tiziano Carpentieri](https://github.com/TizianoCarpentieri)** · [MIT license](LICENSE) · [Italiano](#italiano)
 
+**Using Gemini in your browser?** Follow the [Gemini browser steps](#gemini-in-your-browser) below. Finding a repository through web search, reading its full instructions and saving a reusable skill are separate steps.
+
 ## Just ask your AI agent
 
 Tell your agent:
@@ -43,9 +45,25 @@ Poi incolla un appunto o usa la dettatura del telefono. Il risultato esprime il 
 
 Non servono terminale o un nuovo account con questo progetto. L'agente deve poter leggere il repository o il testo della skill. Se non può installarla, può applicarla nella conversazione corrente; se non può aprire link, copia il contenuto di [SKILL.md](SKILL.md) nella chat.
 
+**Gemini nel browser:** apri il [testo completo della skill](https://raw.githubusercontent.com/TizianoCarpentieri/SocraticSelf/main/SKILL.md), copialo e incollalo in una nuova chat Gemini, preceduto da «Queste sono le istruzioni di SocraticSelf. Applicale al mio prossimo appunto in questa conversazione». Poi invia il tuo appunto. Fornire il testo evita di dipendere dalla ricerca web o dall'apertura del link da parte di Gemini; non salva automaticamente una skill permanente. Questo percorso è proposto per la prova: il progetto non ha ancora verificato un risultato completo nel client web Gemini.
+
 Prova un caso vicino al tuo lavoro: [prenotazioni dello studio](examples/01-prenotazioni-studio.md), [cena della squadra](examples/02-cena-della-squadra.md), [ordini del miele](examples/03-ordini-del-miele.md).
 
 </details>
+
+## Gemini in your browser
+
+If Gemini cannot read the repository link, provide the instructions directly:
+
+1. Open the [full skill text](https://raw.githubusercontent.com/TizianoCarpentieri/SocraticSelf/main/SKILL.md) yourself and copy all of it.
+2. Start a new Gemini chat. Paste the text after: **“These are the instructions for SocraticSelf. Apply them to my next note in this conversation.”** Send the message.
+3. Send your note. Check that the result preserves your intent and constraints, uses your voice and keeps unanswered questions explicit.
+
+This supplies the text without relying on Gemini's web search or link retrieval. It is use in the current conversation, not a persistent installation. The project has not yet verified an end-to-end result in the Gemini web client; the setup guidance is a route to try, not a compatibility certification.
+
+For reuse, Google's [Gem setup guide](https://support.google.com/gemini/answer/15146780) describes saving a name and instructions: name it **SocraticSelf**, paste the original skill text into its instructions without using the rewrite option, and save. Google is [transitioning Gems to skills](https://support.google.com/gemini/answer/18560919); follow the current instructions for the options available in your account.
+
+On supported desktop accounts, Google's [GitHub import guide](https://support.google.com/gemini/answer/16176929) also describes attaching a repository through **Add files → More uploads → Import code**. Import `https://github.com/TizianoCarpentieri/SocraticSelf`, then ask Gemini to read `SKILL.md` and apply it to your next note. This imports a snapshot into that chat; it does not install SocraticSelf automatically. Google documents that its GitHub integration cannot read a repository merely from a URL in the prompt. That limitation is separate from web-search results and does not establish why a particular fetch failed.
 
 ## For AI agents: setup and activation
 
