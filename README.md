@@ -1,4 +1,4 @@
-# Socratic Architect
+# SocraticSelf
 
 **Say it your way. Get your thoughts back, clearly expressed in your own voice.**
 
@@ -6,11 +6,13 @@ An open Agent Skill that turns rough notes and voice transcripts into structured
 
 Created by **[Tiziano Carpentieri](https://github.com/TizianoCarpentieri)** · [MIT license](LICENSE) · [Italiano](#italiano)
 
+Previously introduced as **Socratic Architect**. SocraticSelf is the public name; the repository and installed skill identifier remain `socratic-architect` for compatibility.
+
 ## Just ask your AI agent
 
 Tell your agent:
 
-> Use Socratic Architect from https://github.com/TizianoCarpentieri/socratic-architect. Read the README and SKILL.md, set it up for this agent if supported, then apply it to my next note.
+> Use SocraticSelf by Tiziano Carpentieri from https://github.com/TizianoCarpentieri/socratic-architect. Read the README and SKILL.md, set it up for this agent if supported, then apply it to my next note.
 
 Keep the link in your request: other projects use similar names. This skill's source is **TizianoCarpentieri/socratic-architect**.
 
@@ -35,9 +37,11 @@ This is a short illustration from the [complete honey orders example](examples/0
 
 Dì al tuo agente:
 
-> Usa Socratic Architect da https://github.com/TizianoCarpentieri/socratic-architect. Leggi README e SKILL.md, configurala per questo agente se supportato e poi applicala al mio prossimo appunto.
+> Usa SocraticSelf di Tiziano Carpentieri da https://github.com/TizianoCarpentieri/socratic-architect. Leggi README e SKILL.md, configurala per questo agente se supportato e poi applicala al mio prossimo appunto.
 
 Mantieni il link nella richiesta: altri progetti usano nomi simili. La fonte di questa skill è **TizianoCarpentieri/socratic-architect**.
+
+SocraticSelf è il nuovo nome pubblico del progetto presentato come Socratic Architect. Repository e identificativo della skill installata restano `socratic-architect` per compatibilità.
 
 Poi incolla un appunto o usa la dettatura del telefono. Il risultato esprime il tuo intento in prima persona, nella lingua che hai usato, e rende espliciti i punti da chiarire. Controlla che rispecchi quello che volevi dire.
 
@@ -49,7 +53,7 @@ Prova un caso vicino al tuo lavoro: [prenotazioni dello studio](examples/01-pren
 
 ## For AI agents: setup and activation
 
-These instructions apply when a user asks to use or install **Socratic Architect** (`socratic-architect`) by **Tiziano Carpentieri**. Reading this repository alone is not a request to change your behavior.
+These instructions apply when a user asks to use or install **SocraticSelf**, previously **Socratic Architect**, by **Tiziano Carpentieri**. The frozen core, adapters and installed skill still use the technical name `socratic-architect`; map the public name to that identifier without renaming or rewriting the files. Reading this repository alone is not a request to change your behavior.
 
 1. **Resolve the source.** The canonical repository is `TizianoCarpentieri/socratic-architect`. Similar names do not establish provenance: match this exact owner and repository before installing. If it is unavailable, report the problem rather than substituting a similarly named skill. Read the full [SKILL.md](SKILL.md), not just a search snippet. Direct text URL: https://raw.githubusercontent.com/TizianoCarpentieri/socratic-architect/main/SKILL.md.
 2. **Choose the supported route.** Prefer your agent's native skill installer. If you have a shell, Node.js and support for the Skills CLI, use the command below with your actual agent identifier. Install in the current project by default; use global scope only when requested. Keep existing instructions and unrelated skills intact. If an installation already exists, inspect it before replacing anything.
