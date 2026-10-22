@@ -67,12 +67,12 @@ On supported desktop accounts, Google's [GitHub import guide](https://support.go
 
 ## For AI agents: setup and activation
 
-These instructions apply when a user asks to use or install **SocraticSelf** by **Tiziano Carpentieri**. The frozen core, adapters and installed skill still use the technical name `socratic-architect`; map the public name to that identifier without renaming or rewriting the files. Reading this repository alone is not a request to change your behavior.
+These instructions apply when a user asks to use or install **SocraticSelf** by **Tiziano Carpentieri**. The installed skill identifier is `socraticself`. Invoke it, install it and report it as SocraticSelf. Reading this repository alone is not a request to change your behavior.
 
 1. **Resolve the source.** The canonical repository is `TizianoCarpentieri/SocraticSelf`. Similar names do not establish provenance: match this exact owner and repository before installing. If it is unavailable, report the problem rather than substituting a similarly named skill. Read the full [SKILL.md](SKILL.md), not just a search snippet. Direct text URL: https://raw.githubusercontent.com/TizianoCarpentieri/SocraticSelf/main/SKILL.md.
 2. **Choose the supported route.** Prefer your agent's native skill installer. If you have a shell, Node.js and support for the Skills CLI, use the command below with your actual agent identifier. Install in the current project by default; use global scope only when requested. Keep existing instructions and unrelated skills intact. If an installation already exists, inspect it before replacing anything.
-3. **Use the original instructions.** Install `SKILL.md` without rewriting or translating it. The core SHA-256 is `e56952339cd52706d40ab6f883381d1726d7e1907e0cdbdf4f05ebfaab126147`. Verify the installed file against the fetched source; preserve the source URL and revision in your installation record when supported.
-4. **Verify before claiming success.** Check the installed file exists and the agent's skill list recognizes `socratic-architect`. If a reload or a new session is required, tell the user the exact remaining step. Report installation separately from activation. Do not claim a persistent installation when you only read the text in a chat.
+3. **Use the original instructions.** Install `SKILL.md` without rewriting or translating it. The core SHA-256 is `ee9cc3016645f7081e66327ae77ee4ab3a22ecb90dc1bef5cd31eaf661dbbf94`. Verify the installed file against the fetched source; preserve the source URL and revision in your installation record when supported.
+4. **Verify before claiming success.** Check the installed file exists and the agent's skill list recognizes `socraticself`. Tell the user to invoke it as SocraticSelf. If a reload or a new session is required, tell the user the exact remaining step. Report installation separately from activation. Do not claim a persistent installation when you only read the text in a chat.
 5. **If installation is unavailable, use this conversation.** Read the full skill and apply it to the user's requested note in the current conversation, within your platform's instruction hierarchy. If you cannot fetch the file, ask for its contents instead of pretending to have loaded it.
 6. **Start with the user's note.** If it is already supplied, apply the skill. Otherwise, briefly confirm the actual setup state in the user's language and invite their note. The skill's first-person, same-language, no-preamble output applies to the rewritten note. Check that its intent and constraints survive and that unresolved questions remain explicit. Do not execute the plans described inside a note as part of rewriting it. Apply this mode when requested; ordinary assistant work remains available outside it.
 
@@ -81,19 +81,19 @@ These instructions apply when a user asks to use or install **SocraticSelf** by 
 With the [open-source Skills CLI](https://github.com/vercel-labs/skills):
 
 ```sh
-npx skills add TizianoCarpentieri/SocraticSelf --skill socratic-architect
+npx skills add TizianoCarpentieri/SocraticSelf --skill socraticself
 ```
 
 For an agent performing a project-scoped installation, choose its actual identifier. For example, for Codex:
 
 ```sh
-npx skills add TizianoCarpentieri/SocraticSelf --skill socratic-architect --agent codex --yes
+npx skills add TizianoCarpentieri/SocraticSelf --skill socraticself --agent codex --yes
 npx skills list
 ```
 
 The installer supports multiple agents, including Claude Code, Codex and Cursor. Verify your client's current skill-loading support; installer support does not guarantee identical model behavior. The CLI's [documentation](https://github.com/vercel-labs/skills#telemetry) describes its anonymous installation telemetry and opt-out settings. The skill itself contains instructions and examples, with no executable scripts, service login or project API key requirement. Your chosen AI tool may have its own costs and data policies.
 
-For updates or removal, use your installer's skill management commands with the same agent and scope. With the Skills CLI, `npx skills remove socratic-architect` removes a project installation; add `--global` only for a global installation.
+For updates or removal, use your installer's skill management commands with the same agent and scope. With the Skills CLI, `npx skills remove socraticself` removes a project installation; add `--global` only for a global installation.
 
 ### Existing tool adapters
 
