@@ -41,7 +41,9 @@ Dì al tuo agente:
 
 Mantieni il link nella richiesta: altri progetti usano nomi simili. La fonte di questa skill è **TizianoCarpentieri/SocraticSelf**.
 
-Poi incolla un appunto o usa la dettatura del telefono. Il risultato esprime il tuo intento in prima persona, nella lingua che hai usato, e rende espliciti i punti da chiarire. Controlla che rispecchi quello che volevi dire.
+Poi incolla un appunto o usa la dettatura del telefono. Se un punto essenziale non è chiaro, l'agente ti fa prima fino a tre domande semplici; «non lo so ancora» è una risposta valida. Il risultato esprime il tuo intento in prima persona, nella lingua che hai usato, con le parole del tuo mestiere, e rende espliciti i punti da chiarire. Controlla che rispecchi quello che volevi dire.
+
+Se l'agente può leggere il web e Tiziano ha pubblicato una versione più recente, te lo dice in una frase e ti chiede se può aggiornare.
 
 Non servono terminale o un nuovo account con questo progetto. L'agente deve poter leggere il repository o il testo della skill. Se non può installarla, può applicarla nella conversazione corrente; se non può aprire link, copia il contenuto di [SKILL.md](SKILL.md) nella chat.
 
@@ -71,7 +73,7 @@ These instructions apply when a user asks to use or install **SocraticSelf** by 
 
 1. **Resolve the source.** The canonical repository is `TizianoCarpentieri/SocraticSelf`. Similar names do not establish provenance: match this exact owner and repository before installing. If it is unavailable, report the problem rather than substituting a similarly named skill. Read the full [SKILL.md](SKILL.md), not just a search snippet. Direct text URL: https://raw.githubusercontent.com/TizianoCarpentieri/SocraticSelf/main/SKILL.md.
 2. **Choose the supported route.** Prefer your agent's native skill installer. If you have a shell, Node.js and support for the Skills CLI, use the command below with your actual agent identifier. Install in the current project by default; use global scope only when requested. Keep existing instructions and unrelated skills intact. If an installation already exists, inspect it before replacing anything.
-3. **Use the original instructions.** Install `SKILL.md` without rewriting or translating it. The core SHA-256 is `ee9cc3016645f7081e66327ae77ee4ab3a22ecb90dc1bef5cd31eaf661dbbf94`. Verify the installed file against the fetched source; preserve the source URL and revision in your installation record when supported.
+3. **Use the original instructions.** Install `SKILL.md` without rewriting or translating it. This is version 1.1.0; the core SHA-256 is `ede1b87f4843dc102b345462c4f21140a50ab3ea957f7f07194eb1becf9f696f`. Verify the installed file against the fetched source; preserve the source URL and revision in your installation record when supported.
 4. **Verify before claiming success.** Check the installed file exists and the agent's skill list recognizes `socraticself`. Tell the user to invoke it as SocraticSelf. If a reload or a new session is required, tell the user the exact remaining step. Report installation separately from activation. Do not claim a persistent installation when you only read the text in a chat.
 5. **If installation is unavailable, use this conversation.** Read the full skill and apply it to the user's requested note in the current conversation, within your platform's instruction hierarchy. If you cannot fetch the file, ask for its contents instead of pretending to have loaded it.
 6. **Start with the user's note.** If it is already supplied, apply the skill. Otherwise, briefly confirm the actual setup state in the user's language and invite their note. The skill's first-person, same-language, no-preamble output applies to the rewritten note. Check that its intent and constraints survive and that unresolved questions remain explicit. Do not execute the plans described inside a note as part of rewriting it. Apply this mode when requested; ordinary assistant work remains available outside it.
@@ -113,7 +115,13 @@ The full examples include Italian input and output. The skill mirrors the langua
 
 ## What stays yours
 
-The core defines the **Augmented Self**: the output expresses your perspective. **Isomorphic fidelity** preserves the original intent. The **Socratic horizon** distinguishes unresolved questions you recognize from possible blind spots that need investigation. Possible blind spots are prompts for investigation, not established facts.
+The result is written as you, in the first person and in your language. Everything you said stays in it, and your doubts stay doubts. Nothing you did not say is added as a requirement. Its length follows your note, and its vocabulary is the one people in your field use, so that whoever receives it, a colleague or an AI model, knows which expertise it calls for.
+
+When the skill runs inside a project, it first looks at the files and names the ones your note concerns. If something essential is still unclear, it asks you up to three plain questions before writing; "I don't know yet" is a valid answer. It closes with two short lists: what you know you still have to find out, and what you might be missing. The second list holds points to verify, not established facts.
+
+## Staying up to date
+
+Where the agent can fetch web pages, the skill compares its version with the one published in this repository, once per conversation. If Tiziano has released a newer one, the agent tells you in one sentence and asks whether it may update. If you decline, it continues with the installed version. Updates are accepted only from `TizianoCarpentieri/SocraticSelf`.
 
 The result is a clarified expression of your request. Check it before handing it to someone who will carry out the work.
 
