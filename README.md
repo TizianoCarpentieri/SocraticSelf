@@ -4,7 +4,7 @@
 
 An open Agent Skill that turns rough notes and voice transcripts into structured first-person documents, preserving your intent and making unanswered questions visible.
 
-Created by **[Tiziano Carpentieri](https://github.com/TizianoCarpentieri)** · [MIT license](LICENSE) · [Italiano](#italiano)
+Created by **[Tiziano Carpentieri](https://github.com/TizianoCarpentieri)** · [Website](https://tizianocarpentieri.github.io/socraticself/) · [MIT license](LICENSE) · [Italiano](#italiano)
 
 **Using Gemini in your browser?** Follow the [Gemini browser steps](#gemini-in-your-browser) below. Finding a repository through web search, reading its full instructions and saving a reusable skill are separate steps.
 
@@ -34,6 +34,8 @@ This is a short illustration from the [complete honey orders example](examples/0
 <summary><strong>Italiano — basta chiederlo al tuo agente</strong></summary>
 
 **Parlo come mi viene; ritrovo quello che volevo dire, organizzato e con i punti da chiarire.**
+
+Pagina del progetto: [tizianocarpentieri.github.io/it/socraticself](https://tizianocarpentieri.github.io/it/socraticself/)
 
 Dì al tuo agente:
 
