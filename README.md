@@ -2,6 +2,8 @@
 
 **Say it your way. Get your thoughts back, clearly expressed in your own voice.**
 
+<img src="https://tizianocarpentieri.github.io/assets/socraticself-flow.gif" alt="A disordered swarm of coloured dots crosses a bright line and leaves in ordered yellow lines." width="760">
+
 An open Agent Skill that turns rough notes and voice transcripts into structured first-person documents, preserving your intent and making unanswered questions visible.
 
 Created by **[Tiziano Carpentieri](https://github.com/TizianoCarpentieri)** · [Website](https://tizianocarpentieri.github.io/socraticself/) · [MIT license](LICENSE) · [Italiano](#italiano)
@@ -28,6 +30,20 @@ This is a short illustration from the [complete honey orders example](examples/0
 
 **You do not need a terminal or a new account with this project.** Your agent needs access to the repository or the skill text. Some agents can install skills; others can only apply the instructions in the current conversation.
 
+## How to use it
+
+<img src="https://tizianocarpentieri.github.io/assets/socraticself-how-to-use-en.gif" alt="Two chats over the same project: in the first, SocraticSelf reads the files and turns a messy note into a clear request; the request is copied into a new chat, which works on it." width="432">
+
+SocraticSelf gives its best inside an AI agent that has your project folder open. One chat clarifies the request, a second one works on it.
+
+1. Open your AI agent in your project folder.
+2. Write or dictate your note the way it comes, and ask the agent to use SocraticSelf.
+3. It reads the files your note concerns. If something essential is unclear, it asks up to three plain questions.
+4. It gives you back the same request, clear and in your voice. Check it against what you meant.
+5. Paste it into a new chat in the same project. That chat works from the clear version.
+
+Outside a project it works the same way in an ordinary chat, for notes like the examples below: step 3 simply has no files to read. The [project page](https://tizianocarpentieri.github.io/socraticself/) shows these steps as a short film.
+
 <a id="italiano"></a>
 
 <details>
@@ -48,6 +64,18 @@ Poi incolla un appunto o usa la dettatura del telefono. Se un punto essenziale n
 Se l'agente può leggere il web e Tiziano ha pubblicato una versione più recente, te lo dice in una frase e ti chiede se può aggiornare.
 
 Non servono terminale o un nuovo account con questo progetto. L'agente deve poter leggere il repository o il testo della skill. Se non può installarla, può applicarla nella conversazione corrente; se non può aprire link, copia il contenuto di [SKILL.md](SKILL.md) nella chat.
+
+**Come si usa.** SocraticSelf dà il meglio dentro un agente AI con la cartella del progetto aperta. Una chat chiarisce la richiesta, una seconda ci lavora.
+
+<img src="https://tizianocarpentieri.github.io/assets/socraticself-how-to-use-it.gif" alt="Due chat sullo stesso progetto: nella prima SocraticSelf legge i file e trasforma un appunto confuso in una richiesta chiara; la richiesta viene copiata in una nuova chat, che ci lavora." width="432">
+
+1. Apri l'agente AI nella cartella del tuo progetto.
+2. Scrivi o detta l'appunto come ti viene e chiedi all'agente di usare SocraticSelf.
+3. Legge i file di cui parla l'appunto. Se manca qualcosa di essenziale, ti fa fino a tre domande semplici.
+4. Ti restituisce la stessa richiesta, chiara e con la tua voce. Controlla che sia quello che intendevi.
+5. Incollala in una nuova chat dello stesso progetto. Quella chat lavora sulla versione chiara.
+
+Fuori da un progetto funziona allo stesso modo in una chat normale, per appunti come gli esempi qui sotto: al passo 3 non ci sono file da leggere. La [pagina del progetto](https://tizianocarpentieri.github.io/it/socraticself/) mostra questi passi in un breve filmato.
 
 **Gemini nel browser:** apri il [testo completo della skill](https://raw.githubusercontent.com/TizianoCarpentieri/SocraticSelf/main/SKILL.md), copialo e incollalo in una nuova chat Gemini, preceduto da «Queste sono le istruzioni di SocraticSelf. Applicale al mio prossimo appunto in questa conversazione». Poi invia il tuo appunto. Fornire il testo evita di dipendere dalla ricerca web o dall'apertura del link da parte di Gemini; non salva automaticamente una skill permanente. Questo percorso è proposto per la prova: il progetto non ha ancora verificato un risultato completo nel client web Gemini.
 
