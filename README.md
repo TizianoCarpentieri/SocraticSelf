@@ -2,7 +2,7 @@
 
 **Say it your way. Get your thoughts back, clearly expressed in your own voice.**
 
-<img src="https://tizianocarpentieri.github.io/assets/socraticself-flow.gif" alt="A disordered swarm of coloured dots crosses a bright line and leaves in ordered yellow lines." width="760">
+<p align="center"><img src="https://tizianocarpentieri.github.io/assets/socraticself-flow.gif" alt="A disordered swarm of coloured dots crosses a bright line and leaves in ordered yellow lines." width="760"></p>
 
 An open Agent Skill that turns rough notes and voice transcripts into structured first-person documents, preserving your intent and making unanswered questions visible.
 
@@ -32,7 +32,7 @@ This is a short illustration from the [complete honey orders example](examples/0
 
 ## How to use it
 
-<img src="https://tizianocarpentieri.github.io/assets/socraticself-how-to-use-en.gif" alt="Two chats over the same project: in the first, SocraticSelf reads the files and turns a messy note into a clear request; the request is copied into a new chat, which works on it." width="432">
+<p align="center"><img src="https://tizianocarpentieri.github.io/assets/socraticself-how-to-use-en.gif" alt="Two chats over the same project: in the first, SocraticSelf reads the files and turns a messy note into a clear request; the request is copied into a new chat, which works on it." width="432"></p>
 
 SocraticSelf gives its best inside an AI agent that has your project folder open. One chat clarifies the request, a second one works on it.
 
@@ -67,7 +67,7 @@ Non servono terminale o un nuovo account con questo progetto. L'agente deve pote
 
 **Come si usa.** SocraticSelf dà il meglio dentro un agente AI con la cartella del progetto aperta. Una chat chiarisce la richiesta, una seconda ci lavora.
 
-<img src="https://tizianocarpentieri.github.io/assets/socraticself-how-to-use-it.gif" alt="Due chat sullo stesso progetto: nella prima SocraticSelf legge i file e trasforma un appunto confuso in una richiesta chiara; la richiesta viene copiata in una nuova chat, che ci lavora." width="432">
+<p align="center"><img src="https://tizianocarpentieri.github.io/assets/socraticself-how-to-use-it.gif" alt="Due chat sullo stesso progetto: nella prima SocraticSelf legge i file e trasforma un appunto confuso in una richiesta chiara; la richiesta viene copiata in una nuova chat, che ci lavora." width="432"></p>
 
 1. Apri l'agente AI nella cartella del tuo progetto.
 2. Scrivi o detta l'appunto come ti viene e chiedi all'agente di usare SocraticSelf.
